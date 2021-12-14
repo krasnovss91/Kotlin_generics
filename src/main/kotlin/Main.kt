@@ -26,4 +26,8 @@ fun main(args: Array<String>) {
     val book = Book("book_1","author_1")
     bookDescriptor.getDescription(book)
 
+    val newspaperDescriptor = NewspaperDescriptor()
+    val newspaper = Newspaper("newspaper_1",11)
+    newspaperDescriptor.getDescription(newspaper)
+
 }
