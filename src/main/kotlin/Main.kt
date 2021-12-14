@@ -30,4 +30,8 @@ fun main(args: Array<String>) {
     val newspaper = Newspaper("newspaper_1",11)
     newspaperDescriptor.getDescription(newspaper)
 
+    val videoDescriptor = VideoDescriptor()
+    val video = Video("video_1",25)
+    videoDescriptor.getDescription(video)
+
 }
